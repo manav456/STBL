@@ -1,0 +1,101 @@
+body {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#dt {
+    border-radius: 50%;
+    width: 175px;
+    height: 225px;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px;
+}
+
+h1 {
+    font-size: 40;
+    font-weight: 100;
+    font-family: fantasy;
+}
+
+.mk {
+    font-family: cursive;
+    font-size: 30;
+}
+
+#welcome {
+    bottom: 0;
+    top: 20px;
+    left: 0;
+    right: 0;
+    background: linear-gradient(#f9fbb2 20%, #7c6354 80%);
+    height: 800px;
+    height: 100%;
+    width: 100%;
+}
+
+#bio {
+    text-align: center;
+    padding: 50px;
+
+}
+
+p {
+    max-width: 450px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 20px auto;
+}
+--
+hr {
+    height: 5px;
+    background-color: black;
+    width: 70px;
+    margin: 8px auto;
+}
+
+.menu {
+    list-style: none;
+    position: fixed;
+    color: red;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.a {
+    display: inline;
+    float: left;
+    font-family: fantasy;
+    font-size: 25px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+
+.a:hover {
+    background-color: red;
+}
+
+.books:hover {
+    color: red;
+}
+
+#contact {
+    background-color: firebrick;
+}
+
+#contact iframe {
+    width: 100%;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
+
+.contact_1 a {
+    color: white;
+}
